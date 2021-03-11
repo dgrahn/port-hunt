@@ -1,6 +1,6 @@
 ![Banner](https://raw.githubusercontent.com/dgrahn/port-hunt/main/banner.png)
 
-# Homelab Services
+# port-hunt
 ![GitHub last commit](https://img.shields.io/github/last-commit/dgrahn/homelab-services?style=flat-square)
 ![Github issues](https://img.shields.io/github/issues-raw/dgrahn/homelab-services?style=flat-square)
 ![Github pull requests](https://img.shields.io/github/issues-pr/dgrahn/homelab-services?style=flat-square)
