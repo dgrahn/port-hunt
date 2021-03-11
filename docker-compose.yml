@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  # Copy this block
+  nginx90:
+    image: nginx
+    volumes:
+      - ./src/90:/usr/share/nginx/html:ro
+    ports:
+    - "90:80"
