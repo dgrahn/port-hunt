@@ -33,6 +33,21 @@ This hosts nginx servers on various ports. Each port contains an HTML file that
 serves an image that students can "collect". This doesn't have any security
 hardening, so don't run it on a public server.
 
+
+To add an extra port, add these lines to the docker-compose.  You will need to
+customize it in threes locations.
+
+```
+  nginx[port]:
+    image: nginx
+    volumes:
+      - ./src/[port]:/usr/share/nginx/html:ro
+    ports:
+    - "[port]:80"
+```
+
+After that, add your files to `src/[port]` and restart the docker-compose.
+
 # License
 [(Back to top)](#table-of-contents)
 
